@@ -26,11 +26,11 @@ Then you can start the project with nodemon to have the server running and hot r
   npm start
 ```
 
-Server run on port 3000, but you can change it in the index.js at the root of directocty (line 12)
+Server run on port 8080, but you can change it in the index.js at the root of directocty (line 12)
 
 ## Documentation for API Endpoints
 
-All URIs are relative to _https://localhost:3000/_
+All URIs are relative to _https://localhost:8080/_
 
 | Method         | HTTP request      | Description                                 |
 | -------------- | ----------------- | ------------------------------------------- |
