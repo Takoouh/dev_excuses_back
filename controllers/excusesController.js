@@ -5,7 +5,7 @@ const excuses = require("../data/excuses.json");
  * @typedef {object} Excuse
  * @property {number} http_code
  * @property {string} tag
- * @property {strung} message
+ * @property {string} message
  */
 
 /**
@@ -24,7 +24,6 @@ exports.getExcuses = (req, res) => {
  */
 exports.postExcuse = (req, res) => {
   const { body } = req;
-  console.log("body", body);
   if (!body || !body.message) {
     return res.status(400).send("Missing excuses info");
   }
