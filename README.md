@@ -11,7 +11,7 @@ Clone the project : https://github.com/Takoouh/dev_excuses_back.git
 
 ```bash
   git clone https://github.com/Takoouh/dev_excuses_back.git
-  cd my-project
+  cd dev_excuses_back
 ```
 
 Install the dependencies
